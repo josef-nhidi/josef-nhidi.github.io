@@ -3,38 +3,38 @@ let images = []
 const path = window.location.pathname;
 if (path.includes("portfolio1.html")) {
   images = [
-    { url: 'images/nature/portfolio2.jpg', thumbnail: 'images/nature/portfolio2.jpg', feature: 'feature-large',description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique cum dolore quam necessitatibus ipsa eveniet eum aperiam, sed vel doloremque ex consequuntur vero ab tenetur culpa ipsum veritatis et. Quas?",title:"Barrada"},
-    { url: 'images/nature/IMG_0583.jpg', thumbnail: 'images/nature/IMG_0583.jpg' ,description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique cum dolore quam necessitatibus ipsa eveniet eum aperiam, sed vel doloremque ex consequuntur vero ab tenetur culpa ipsum veritatis et. Quas?",title:"Barrada"},
-    { url: 'images/nature/IMG_0600.jpg', thumbnail: 'images/nature/IMG_0600.jpg',feature : 'feature-tall' ,description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique cum dolore quam necessitatibus ipsa eveniet eum aperiam, sed vel doloremque ex consequuntur vero ab tenetur culpa ipsum veritatis et. Quas?",title:"Barrada"},
-    { url: 'images/nature/IMG_0597.jpg', thumbnail: 'images/nature/IMG_0597.jpg',description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique cum dolore quam necessitatibus ipsa eveniet eum aperiam, sed vel doloremque ex consequuntur vero ab tenetur culpa ipsum veritatis et. Quas?",title:"Barrada"}
+    { url: 'images/nature/portfolio2.webp', thumbnail: 'images/nature/portfolio2.webp', feature: 'feature-large',description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique cum dolore quam necessitatibus ipsa eveniet eum aperiam, sed vel doloremque ex consequuntur vero ab tenetur culpa ipsum veritatis et. Quas?",title:"Barrada"},
+    { url: 'images/nature/IMG_0583.webp', thumbnail: 'images/nature/IMG_0583.webp' ,description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique cum dolore quam necessitatibus ipsa eveniet eum aperiam, sed vel doloremque ex consequuntur vero ab tenetur culpa ipsum veritatis et. Quas?",title:"Barrada"},
+    { url: 'images/nature/IMG_0600.webp', thumbnail: 'images/nature/IMG_0600.webp',feature : 'feature-tall' ,description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique cum dolore quam necessitatibus ipsa eveniet eum aperiam, sed vel doloremque ex consequuntur vero ab tenetur culpa ipsum veritatis et. Quas?",title:"Barrada"},
+    { url: 'images/nature/IMG_0597.webp', thumbnail: 'images/nature/IMG_0597.webp',description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique cum dolore quam necessitatibus ipsa eveniet eum aperiam, sed vel doloremque ex consequuntur vero ab tenetur culpa ipsum veritatis et. Quas?",title:"Barrada"}
   ];}
   else if (path.includes("portfolio2.html")) {
     images = [
-      { url: 'images/portraits/a.jpg', thumbnail: 'images/portraits/a.jpg',feature:'feature-tall',title:"WASSIM",description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique cum dolore quam necessitatibus ipsa eveniet eum aperiam, sed vel doloremque ex consequuntur vero ab tenetur culpa ipsum veritatis et. Quas?" },
-      { url: 'images/portraits/b.jpg', thumbnail: 'images/portraits/b.jpg',title:"WASSIM",description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique cum dolore quam necessitatibus ipsa eveniet eum aperiam, sed vel doloremque ex consequuntur vero ab tenetur culpa ipsum veritatis et. Quas?"  },
-      { url: 'images/portraits/c.jpg', thumbnail: 'images/portraits/c.jpg',feature:'feature-large',title:"WASSIM",description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique cum dolore quam necessitatibus ipsa eveniet eum aperiam, sed vel doloremque ex consequuntur vero ab tenetur culpa ipsum veritatis et. Quas?"  },
-      { url: 'images/portraits/d.jpg', thumbnail: 'images/portraits/d.jpg',title:"WASSIM",description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique cum dolore quam necessitatibus ipsa eveniet eum aperiam, sed vel doloremque ex consequuntur vero ab tenetur culpa ipsum veritatis et. Quas?"  }
+      { url: 'images/portraits/a.webp', thumbnail: 'images/portraits/a.webp',feature:'feature-tall',title:"WASSIM",description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique cum dolore quam necessitatibus ipsa eveniet eum aperiam, sed vel doloremque ex consequuntur vero ab tenetur culpa ipsum veritatis et. Quas?" },
+      { url: 'images/portraits/b.webp', thumbnail: 'images/portraits/b.webp',title:"WASSIM",description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique cum dolore quam necessitatibus ipsa eveniet eum aperiam, sed vel doloremque ex consequuntur vero ab tenetur culpa ipsum veritatis et. Quas?"  },
+      { url: 'images/portraits/c.webp', thumbnail: 'images/portraits/c.webp',feature:'feature-large',title:"WASSIM",description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique cum dolore quam necessitatibus ipsa eveniet eum aperiam, sed vel doloremque ex consequuntur vero ab tenetur culpa ipsum veritatis et. Quas?"  },
+      { url: 'images/portraits/d.webp', thumbnail: 'images/portraits/d.webp',title:"WASSIM",description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique cum dolore quam necessitatibus ipsa eveniet eum aperiam, sed vel doloremque ex consequuntur vero ab tenetur culpa ipsum veritatis et. Quas?"  }
     ];} 
   else if (path.includes("portfolio3.html")) {
     images = [
-      { url: 'images/city/a.jpg', thumbnail: 'images/city/a.jpg',feature:'feature-tall', title:"Sfax",description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique cum dolore quam necessitatibus ipsa eveniet eum aperiam, sed vel doloremque ex consequuntur vero ab tenetur culpa ipsum veritatis et. Quas?" },
-      { url: 'images/city/b.jpg', thumbnail: 'images/city/b.jpg', title:"Sfax",description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique cum dolore quam necessitatibus ipsa eveniet eum aperiam, sed vel doloremque ex consequuntur vero ab tenetur culpa ipsum veritatis et. Quas?"},
-      { url: 'images/city/c.jpg', thumbnail: 'images/city/c.jpg',feature:'feature-large',title:"Sfax",description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique cum dolore quam necessitatibus ipsa eveniet eum aperiam, sed vel doloremque ex consequuntur vero ab tenetur culpa ipsum veritatis et. Quas?" },
-      { url: 'images/city/d.jpg', thumbnail: 'images/city/d.jpg',title:"Sfax",description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique cum dolore quam necessitatibus ipsa eveniet eum aperiam, sed vel doloremque ex consequuntur vero ab tenetur culpa ipsum veritatis et. Quas?" }
+      { url: 'images/city/a.webp', thumbnail: 'images/city/a.webp',feature:'feature-tall', title:"Sfax",description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique cum dolore quam necessitatibus ipsa eveniet eum aperiam, sed vel doloremque ex consequuntur vero ab tenetur culpa ipsum veritatis et. Quas?" },
+      { url: 'images/city/b.webp', thumbnail: 'images/city/b.webp', title:"Sfax",description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique cum dolore quam necessitatibus ipsa eveniet eum aperiam, sed vel doloremque ex consequuntur vero ab tenetur culpa ipsum veritatis et. Quas?"},
+      { url: 'images/city/c.webp', thumbnail: 'images/city/c.webp',feature:'feature-large',title:"Sfax",description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique cum dolore quam necessitatibus ipsa eveniet eum aperiam, sed vel doloremque ex consequuntur vero ab tenetur culpa ipsum veritatis et. Quas?" },
+      { url: 'images/city/d.webp', thumbnail: 'images/city/d.webp',title:"Sfax",description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique cum dolore quam necessitatibus ipsa eveniet eum aperiam, sed vel doloremque ex consequuntur vero ab tenetur culpa ipsum veritatis et. Quas?" }
     ];} 
   else if (path.includes("portfolio4.html")){
     images = [
-      { url: 'images/art/a.jpg', thumbnail: 'images/art/a.jpg', feature: 'feature-large'},
-    { url: 'images/art/b.jpg', thumbnail: 'images/art/b.jpg' },
-    { url: 'images/art/c.jpg', thumbnail: 'images/art/c.jpg',feature : 'feature-wide' },
-    { url: 'images/art/d.jpg', thumbnail: 'images/art/d.jpg'}
+      { url: 'images/art/a.webp', thumbnail: 'images/art/a.webp', feature: 'feature-large'},
+    { url: 'images/art/b.webp', thumbnail: 'images/art/b.webp' },
+    { url: 'images/art/c.webp', thumbnail: 'images/art/c.webp',feature : 'feature-wide' },
+    { url: 'images/art/d.webp', thumbnail: 'images/art/d.webp'}
     ];}
   else if (path.includes("portfolio5.html")){
     images = [
-      { url: 'images/marketing/a.jpg', thumbnail: 'images/marketing/a.jpg', feature: 'feature-large'},
-    { url: 'images/marketing/b.jpg', thumbnail: 'images/marketing/b.jpg' },
-    { url: 'images/marketing/c.jpg', thumbnail: 'images/marketing/c.jpg',feature : 'feature-tall' },
-    { url: 'images/marketing/d.jpg', thumbnail: 'images/marketing/d.jpg',}
+      { url: 'images/marketing/a.webp', thumbnail: 'images/marketing/a.webp', feature: 'feature-large'},
+    { url: 'images/marketing/b.webp', thumbnail: 'images/marketing/b.webp' },
+    { url: 'images/marketing/c.webp', thumbnail: 'images/marketing/c.webp',feature : 'feature-tall' },
+    { url: 'images/marketing/d.webp', thumbnail: 'images/marketing/d.webp',}
     ];}
 
 // Create the gallery with all images
