@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Portfolio</title>
+    <link rel="stylesheet" href="portfolio/style.css">
+    <script src="portfolio/main.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <h1>Portfolio</h1>
+        <nav>
+          <button id="view-toggle" aria-label="Toggle view mode" title="Toggle view">
+            <span class="icon-grid">⊞</span>
+          </button>
+          
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <button style="display: block; border: 1px solid black; font: black; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-weight: bold;font-size: 16px;">
+        <a href="index.html#portfolio" style="text-decoration: none;color: black;">Go Back</a>
+      </button>
+      <div class="gallery-container">
+        <div id="gallery" class="gallery grid-view"></div>
+      </div>
+
+      <div id="image-viewer" class="image-viewer">
+        <div class="viewer-content">
+          <img id="viewer-image" src="" alt="" />
+          <div class="viewer-info">
+            <h2 id="viewer-title"></h2>
+            <p id="viewer-description"></p>
+          </div>
+        </div>
+        <button id="viewer-close" aria-label="Close viewer">×</button>
+        <button id="viewer-prev" aria-label="Previous image">‹</button>
+        <button id="viewer-next" aria-label="Next image">›</button>
+      </div>
+    </main>
+
+    <footer style="text-align: center;">
+      <p>© 2025 Josef Nhidi Portfolio. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

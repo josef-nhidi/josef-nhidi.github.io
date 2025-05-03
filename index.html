@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Josef Nhidi</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    /* Hamburger styles */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger .bar {
+  width: 24px;
+  height: 2px;
+  background-color: #333;
+  margin: 3px 0;
+  transition: 0.4s;
+}
+
+/* Show hamburger on small screens */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: white;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 150px;
+    height: 40vh;
+    text-align:center;
+
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="/">Josef</a>
+      </div>
+      <div class="nav-links">
+        <ul>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-title fade-in">
+          <h2>About Me</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="about-content">
+          <div class="about-text slide-in-left">
+            <h3>Hello, I'm <span class="highlight">Josef Nhidi</span></h3>
+            <p style="text-align: justify;">a passionate photographer with a sharp eye for detail and a love for storytelling through images. From capturing the energy of street life to highlighting the beauty of food and products, his work blends creativity with purpose. Whether it's a dynamic event or a quiet moment, Youssef knows how to freeze time and turn it into art. Lets take your photographs to next level</p>
+          </div>
+          <div class="about-image slide-in-right" style="max-width: fit-content;">
+            <img src="images/josef.jpg" alt="Photographer Portrait" style="height: 80vh;">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section">
+      <div class="container">
+        <div class="section-title fade-in">
+          <h2>Portfolio</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="portfolio-grid">
+          <div class="portfolio-item fade-in">
+            <a href="portfolio1.html">
+              <div class="portfolio-image">
+                <img src="images/nature/portfolio2.jpg" alt="Nature Photography">
+                <div class="overlay">
+                  <h3>Nature</h3>
+                  <p>the beauty of landscapes</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="portfolio-item fade-in delay-1">
+            <a href="portfolio2.html">
+              <div class="portfolio-image">
+                <img src="images/portraits/b.jpg" alt="Portrait Photography">
+                <div class="overlay">
+                  <h3>Portraits</h3>
+                  <p>Capturing human emotions</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="portfolio-item fade-in delay-2">
+            <a href="portfolio3.html">
+              <div class="portfolio-image">
+                <img src="images/city/c.jpg" alt="Urban Photography">
+                <div class="overlay">
+                  <h3>City</h3>
+                  <p>City life through my lens</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="portfolio-item fade-in delay-3">
+            <a href="portfolio4.html">
+              <div class="portfolio-image">
+                <img src="images/art/c.jpg" alt="Event Photography">
+                <div class="overlay">
+                  <h3>Events</h3>
+                  <p>Precious moments preserved</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="portfolio-item fade-in delay-4">
+            <a href="portfolio5.html">
+              <div class="portfolio-image">
+                <img src="images/marketing/a.jpg" alt="Products Photography">
+                <div class="overlay">
+                  <h3>products</h3>
+                  <p>Delicious moments preserved</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-title fade-in">
+          <h2>Contact Me</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info slide-in-left">
+            <h3>Let's work together</h3>
+            <p>Have a project in mind or want to schedule a photoshoot? Feel free to reach out!</p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <span class="contact-label">Email:</span>
+                <span class="contact-value">Nhidiyoussef8@gmail.com</span>
+              </div>
+              <div class="contact-item">
+                <span class="contact-label">Phone:</span>
+                <span class="contact-value">+216 52 287 170</span>
+              </div>
+              <div class="contact-item">
+                <span class="contact-label">Studio:</span>
+                <span class="contact-value">El Hamma ,Gabes ,Tunisia</span>
+              </div>
+            </div>
+            
+          </div>
+          <div class="contact-form slide-in-right">
+            <form id="contactForm" action="https://formspree.io/f/meogqoyb" method="POST">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn primary-btn">Send Message</button>
+            </form>
+          </div>
+          
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.1310962704256!2d10.716722876503097!3d34.727089772910375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13002ca4e684fdcf%3A0xb58c51e46e842136!2sFacult%C3%A9%20des%20sciences%20de%20Sfax!5e0!3m2!1sfr!2stn!4v1746137783330!5m2!1sfr!2stn" width="100%" height="450" style="border:0;border-radius: 20px; padding-top: 25px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      
+    </section>
+    
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <a href="/">Josef</a>
+        </div>
+        <div class="social-links">
+          <a href="https://www.instagram.com/josef_nhidi/" class="social-link" target="_blank">Instagram</a>
+          <a href="https://www.facebook.com/josef.nhidi.youssef/" class="social-link" target="_blank">Facebook</a>
+          <a href="https://www.linkedin.com/in/youssef-nhidi/" class="social-link" target="_blank">LinkedIn</a>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 Josef Nhidi Photography. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/animations.js"></script>
+  <script>
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+  
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      hamburger.classList.toggle('open');
+    });
+    const form_var =document.getElementById("contactForm");
+    form_var.addEventListener("submit",function(event){
+      event.preventDefault();
+      const x = new FormData(form_var);
+      fetch("https://formspree.io/f/meogqoyb",{
+        method:"POST",
+        body:x,
+        headers:{
+          "Accept":"application/json"
+        }
+      }).then(res=>{
+        if(res.ok){
+          form_var.reset();
+        }
+      }).catch(Error=>{
+        alert("8alta");
+      });
+
+    });
+  </script>
+</body>
+</html>
